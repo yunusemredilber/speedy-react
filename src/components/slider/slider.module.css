@@ -1,0 +1,38 @@
+.container {
+  display: block;
+  position: relative;
+  width: var(--carousel-width, 0);
+  height: var(--carousel-height, 0);
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+
+.slideList {
+  width: max-content;
+  display: flex;
+  transition: transform 0.25s ease-in-out;
+}
+
+.slideItem {
+  width: var(--carousel-width, 0);
+  height: var(--carousel-height, 0);
+  display: block;
+}
+
+.prevButton {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 0;
+}
+
+.nextButton {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  right: 0;
+}

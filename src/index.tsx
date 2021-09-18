@@ -1,7 +1,8 @@
 import React from "react"
 import ReactDOM from "react-dom"
+import "./assets/reset.css"
 import "./index.css"
-import { App } from "./App"
+import { App } from "./containers/app"
 import reportWebVitals from "./reportWebVitals"
 
 const rootElement = document.getElementById("root")
