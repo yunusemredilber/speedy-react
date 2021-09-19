@@ -21,18 +21,53 @@
   width: var(--carousel-width, 0);
   height: var(--carousel-height, 0);
   display: block;
+  overflow-y: auto;
+  padding-bottom: 0;
+}
+
+.bottomControls {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 70px;
+  width: 100%;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0a1929;
+}
+
+.slideItem {
+  padding-bottom: 70px;
 }
 
 .prevButton {
-  position: absolute;
+  display: none !important;
+  position: fixed;
   top: 50%;
-  transform: translate(0, -50%);
-  left: 0;
+  transform: translate(-50%, -50%);
+  left: calc(var(--padding-x, 20px) / 2);
 }
 
 .nextButton {
-  position: absolute;
+  display: none !important;
+  position: fixed;
   top: 50%;
-  transform: translate(0, -50%);
-  right: 0;
+  transform: translate(50%, -50%);
+  right: calc(var(--padding-x, 20px) / 2);
+}
+
+@media (min-width: 700px) {
+  .prevButton {
+    display: inline-flex !important;
+  }
+
+  .nextButton {
+    display: inline-flex !important;
+  }
+
+  .bottomControls {
+    display: none;
+  }
 }

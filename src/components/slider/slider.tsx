@@ -1,28 +1,18 @@
-import { CSSProperties, FunctionComponent, ReactElement } from "react"
+import { FunctionComponent, ReactElement } from "react"
 import styles from "./slider.module.css"
 import { useListPagination } from "../../hooks/use-list-pagination"
 import { IconButton } from "../icon-button"
 import { ArrowLeft, ArrowRight } from "../icon"
 
 interface Props {
-  slides: ReactElement[],
-  width?: string | number,
-  height?: string | number
+  slides: ReactElement[]
 }
 
-const Slider: FunctionComponent<Props> = ({ slides, width= 100, height = 100 }) => {
+const Slider: FunctionComponent<Props> = ({ slides }) => {
   const { current, before, next } = useListPagination(slides.length)
 
-  const cssVariables = {
-    "--carousel-width": width,
-    "--carousel-height": height,
-  } as CSSProperties
-
   return (
-    <div className={styles.container} style={cssVariables}>
-      <IconButton className={styles.prevButton} onClick={before}>
-        <ArrowLeft />
-      </IconButton>
+    <div className={styles.container}>
       <div className={styles.slider}>
         <ul
           className={styles.slideList}
@@ -37,9 +27,20 @@ const Slider: FunctionComponent<Props> = ({ slides, width= 100, height = 100 }) 
           ))}
         </ul>
       </div>
+      <IconButton className={styles.prevButton} onClick={before}>
+        <ArrowLeft />
+      </IconButton>
       <IconButton className={styles.nextButton} onClick={next}>
         <ArrowRight />
       </IconButton>
+      <div className={styles.bottomControls}>
+        <IconButton onClick={before}>
+          <ArrowLeft />
+        </IconButton>
+        <IconButton onClick={next}>
+          <ArrowRight />
+        </IconButton>
+      </div>
     </div>
   )
 }
