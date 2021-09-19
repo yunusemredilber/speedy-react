@@ -14,6 +14,7 @@
     "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "prettier": "^2.4.1",
+    "prism-react-renderer": "^1.2.1",
     "react": "^18.0.0-alpha-bc9bb87c2-20210917",
     "react-dom": "^18.0.0-alpha-bc9bb87c2-20210917",
     "react-scripts": "4.0.3",
