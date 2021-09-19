@@ -2,13 +2,21 @@ import { ButtonHTMLAttributes, FunctionComponent } from "react"
 import styles from "./icon-button.module.css"
 import clsx from "clsx"
 
+const sizes = {
+  small: styles.small,
+  medium: styles.medium,
+  large: styles.large,
+}
+
 interface Props extends ButtonHTMLAttributes<HTMLButtonElement> {
-  className: string
+  className?: string
+  size?: keyof typeof sizes
 }
 
 const IconButton: FunctionComponent<Props> = ({
   children,
   className,
+  size = "small",
   ...buttonProps
 }) => {
   return (
