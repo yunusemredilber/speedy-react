@@ -21,3 +21,9 @@
     --padding-x: 20px;
   }
 }
+
+@media screen and (max-width: 450px) {
+  :root {
+    --padding-x: 15px;
+  }
+}
