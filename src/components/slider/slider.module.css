@@ -22,7 +22,7 @@
   height: var(--carousel-height, 0);
   display: block;
   overflow-y: auto;
-  padding-bottom: 0;
+  padding: 0 var(--padding-x) 70px var(--padding-x);
 }
 
 .bottomControls {
@@ -38,16 +38,12 @@
   background-color: #0a1929;
 }
 
-.slideItem {
-  padding-bottom: 70px;
-}
-
 .prevButton {
   display: none !important;
   position: fixed;
   top: 50%;
   transform: translate(-50%, -50%);
-  left: calc(var(--padding-x, 20px) / 2);
+  left: calc(calc((100vw - 1500px) - 150px) / 2);
 }
 
 .nextButton {
@@ -55,7 +51,17 @@
   position: fixed;
   top: 50%;
   transform: translate(50%, -50%);
-  right: calc(var(--padding-x, 20px) / 2);
+  right: calc(calc((100vw - 1500px) - 150px) / 2);
+}
+
+@media screen and (max-width: 1800px) {
+  .nextButton {
+    right: calc(var(--padding-x, 20px) / 2);
+  }
+
+  .prevButton {
+    left: calc(var(--padding-x, 20px) / 2);
+  }
 }
 
 @media (min-width: 700px) {

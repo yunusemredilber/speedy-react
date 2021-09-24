@@ -1,26 +1,23 @@
 :root {
   --carousel-height: 100vh;
-  --carousel-width: 1500px;
-  --padding-x: calc((100vw - 1500px) - 150px);
+  --carousel-width: 100vw;
+  --padding-x: calc((100vw - 1500px) / 2);
 }
 
 @media screen and (max-width: 1800px) {
   :root {
-    --carousel-width: calc(100vw - 300px);
     --padding-x: 150px;
   }
 }
 
 @media screen and (max-width: 1200px) {
   :root {
-    --carousel-width: calc(100vw - 160px);
-    --padding-x: 80px;
+    --padding-x: 120px;
   }
 }
 
 @media screen and (max-width: 700px) {
   :root {
-    --carousel-width: calc(100vw);
     --padding-x: 20px;
   }
 }
