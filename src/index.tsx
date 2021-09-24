@@ -1,7 +1,9 @@
 import React from "react"
 import ReactDOM from "react-dom"
 import "./assets/reset.css"
-import "./index.css"
+import "./assets/variables.css"
+import "./assets/highlight.css"
+import "./assets/globals.css"
 import { App } from "./containers/app"
 import reportWebVitals from "./reportWebVitals"
 

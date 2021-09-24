@@ -8,6 +8,17 @@
   margin-top: 10px;
 }
 
+.codeWithResult > div:nth-child(2) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.codeWithResult > div:nth-child(2) > *:not(:last-child) {
+  margin-right: 10px;
+}
+
 @media (max-width: 700px) {
   .codeWithResult {
     grid-template-columns: repeat(1, minmax(0, 1fr));

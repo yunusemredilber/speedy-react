@@ -30,6 +30,13 @@
   color: #aab4be;
 }
 
+@media (min-width: 700px) {
+  .p {
+    font-size: 1.2rem;
+    line-height: 1.7;
+  }
+}
+
 .code {
   line-height: 1.4;
   letter-spacing: 0.2px;
@@ -72,6 +79,7 @@
   letter-spacing: 0;
   word-break: break-word;
 }
+
 :global(a:hover) {
   text-decoration-color: inherit;
 }

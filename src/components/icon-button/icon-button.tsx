@@ -20,7 +20,7 @@ const IconButton: FunctionComponent<Props> = ({
   ...buttonProps
 }) => {
   return (
-    <button className={clsx([styles.button, className])} {...buttonProps}>
+    <button className={clsx([styles.button, sizes[size] || sizes.small, className])} {...buttonProps}>
       {children}
     </button>
   )

@@ -1,5 +1,5 @@
 export const useRenderPaintText = `
-const useRenderPaint = ({}) => {
+const useRenderPaint = () => {
   const ref = useRef(null)
 
   useEffect(() => {
@@ -21,7 +21,7 @@ const useRenderPaint = ({}) => {
     ref.current.classList.remove("highlight")
   }
 
-  return { ref, onAnimationEnd }
+  return { ref, onAnimationEnd, className: "highlightable" }
 }
 
 export { useRenderPaint }
