@@ -28,6 +28,7 @@
   letter-spacing: 0;
   word-break: break-word;
   color: #aab4be;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 700px) {

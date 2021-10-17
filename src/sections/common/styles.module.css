@@ -1,0 +1,20 @@
+.circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #121212;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.08),
+    rgba(255, 255, 255, 0.08)
+  );
+  border: 1px solid #444;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.listItem {
+  padding: 3px;
+  margin-bottom: 4px;
+}

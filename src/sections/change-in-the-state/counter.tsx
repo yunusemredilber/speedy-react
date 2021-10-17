@@ -4,14 +4,14 @@ import { Button } from "../../components/button"
 
 export const CounterText = `
 const Counter = () => {
-  const [count, setCount] = useState(0)
+  const [counter, setCounter] = useState(0)
   const targetProps = useRenderPaint()
   return (
     <div {...targetProps}>
-      <Button onClick={() => setCount(count + 1)}>
+      <Button onClick={() => setCounter(counter + 1)}>
         Increase
       </Button>
-      <p>{count}</p>
+      <p>{counter}</p>
     </div>
   )
 }
@@ -20,12 +20,12 @@ export { Counter }
 `
 
 const Counter: FunctionComponent = () => {
-  const [count, setCount] = useState(0)
+  const [counter, setCounter] = useState(0)
   const targetProps = useRenderPaint<HTMLDivElement>()
   return (
     <div {...targetProps}>
-      <Button onClick={() => setCount(count + 1)}>Increase</Button>
-      <p>{count}</p>
+      <Button onClick={() => setCounter(counter + 1)}>Increase</Button>
+      <p>{counter}</p>
     </div>
   )
 }

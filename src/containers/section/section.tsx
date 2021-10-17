@@ -18,9 +18,7 @@ const Section: FunctionComponent<Props> = ({
         <Typography variant="h1">{header}</Typography>
         <Typography variant="h2">{secondHeader}</Typography>
       </header>
-      <div className={styles.content}>
-        {children}
-      </div>
+      <div className={styles.content}>{children}</div>
     </section>
   )
 }

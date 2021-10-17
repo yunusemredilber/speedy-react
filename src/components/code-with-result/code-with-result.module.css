@@ -1,26 +1,23 @@
 .container {
-}
-
-.codeWithResult {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   grid-gap: 20px;
   margin-top: 10px;
 }
 
-.codeWithResult > div:nth-child(2) {
+.container > div:nth-child(2) {
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
-.codeWithResult > div:nth-child(2) > *:not(:last-child) {
+.container > div:nth-child(2) > *:not(:last-child) {
   margin-right: 10px;
 }
 
 @media (max-width: 700px) {
-  .codeWithResult {
+  .container {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }

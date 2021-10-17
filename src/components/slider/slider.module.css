@@ -54,6 +54,13 @@
   right: calc(calc((100vw - 1500px) - 150px) / 2);
 }
 
+.pageInfo {
+  position: fixed;
+  bottom: 18px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 @media screen and (max-width: 1800px) {
   .nextButton {
     right: calc(var(--padding-x, 20px) / 2);
@@ -75,5 +82,17 @@
 
   .bottomControls {
     display: none;
+  }
+
+  .slideItem {
+    padding: 0 var(--padding-x) 0 var(--padding-x);
+  }
+
+  .pageInfo {
+    top: 30px;
+    right: 30px;
+    left: unset;
+    bottom: unset;
+    transform: none;
   }
 }

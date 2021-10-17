@@ -21,7 +21,7 @@ const useRenderPaint = () => {
     ref.current.classList.remove("highlight")
   }
 
-  return { ref, onAnimationEnd, className: "highlightable" }
+  return { ref, onAnimationEnd, "data-highlightable": true }
 }
 
 export { useRenderPaint }

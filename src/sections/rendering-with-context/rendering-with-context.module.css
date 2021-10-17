@@ -1,0 +1,20 @@
+.counterControl {
+  position: relative;
+  text-align: center;
+  padding: 5px;
+}
+
+.counterControl > p {
+  margin-bottom: 5px;
+}
+
+.counterControl::before {
+  content: "";
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  position: absolute;
+  top: 4px;
+  right: 3px;
+  background-color: #904e55;
+}

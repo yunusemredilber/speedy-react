@@ -41,6 +41,9 @@ const Slider: FunctionComponent<Props> = ({ slides }) => {
           <ArrowRight />
         </IconButton>
       </div>
+      <div className={styles.pageInfo}>
+        {current + 1} / {slides.length}
+      </div>
     </div>
   )
 }

@@ -3,7 +3,7 @@ import { MutableRefObject, useEffect, useRef } from "react"
 const useRenderPaint = <ElementType>(): {
   ref: MutableRefObject<ElementType | null>
   onAnimationEnd: () => void
-  className: string
+  "data-highlightable": boolean
 } => {
   const ref = useRef<ElementType>(null)
 
@@ -31,7 +31,7 @@ const useRenderPaint = <ElementType>(): {
     el.classList.remove("highlight")
   }
 
-  return { ref, onAnimationEnd, className: "highlightable" }
+  return { ref, onAnimationEnd, "data-highlightable": true }
 }
 
 export { useRenderPaint }
