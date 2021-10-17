@@ -16,7 +16,6 @@ import { Lists } from "../../sections/lists"
 import { UseCallback } from "../../sections/use-callback"
 import { ContextRenderingBehavior } from "../../sections/context-rendering-behavior"
 import { RenderingWithContext } from "../../sections/rendering-with-context"
-import { ReactProfiling } from "../../sections/react-profiling"
 
 const App: FunctionComponent = () => {
   return (
@@ -70,7 +69,11 @@ const App: FunctionComponent = () => {
           />,
           <ContextRenderingBehavior key={16} />,
           <RenderingWithContext key={17} />,
-          <ReactProfiling key={18} />,
+          <TextSection
+            key={15}
+            header="React Profiling"
+            text="We will examine an example ->"
+          />,
         ]}
       />
     </div>

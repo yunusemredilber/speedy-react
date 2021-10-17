@@ -6,7 +6,7 @@ import { CodeWithResult } from "../../components/code-with-result"
 
 const Lists: FunctionComponent = () => {
   return (
-    <Section header="useMemo" secondHeader="Memorizing components">
+    <Section header="Lists" secondHeader="Memorizing list items">
       <div>
         <Typography variant="p">
           Let's see what happens if we shuffle list items with keys:
