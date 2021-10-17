@@ -1,24 +1,30 @@
 {
   "files": {
-    "main.css": "/speedy-react/static/css/main.9839d2a2.chunk.css",
-    "main.js": "/speedy-react/static/js/main.2d71872f.chunk.js",
-    "main.js.map": "/speedy-react/static/js/main.2d71872f.chunk.js.map",
-    "runtime-main.js": "/speedy-react/static/js/runtime-main.bdc3d3f4.js",
-    "runtime-main.js.map": "/speedy-react/static/js/runtime-main.bdc3d3f4.js.map",
-    "static/js/2.3ae82675.chunk.js": "/speedy-react/static/js/2.3ae82675.chunk.js",
-    "static/js/2.3ae82675.chunk.js.map": "/speedy-react/static/js/2.3ae82675.chunk.js.map",
-    "static/js/3.3ed4b980.chunk.js": "/speedy-react/static/js/3.3ed4b980.chunk.js",
-    "static/js/3.3ed4b980.chunk.js.map": "/speedy-react/static/js/3.3ed4b980.chunk.js.map",
+    "main.css": "/speedy-react/static/css/main.e17e66e7.chunk.css",
+    "main.js": "/speedy-react/static/js/main.680621ab.chunk.js",
+    "main.js.map": "/speedy-react/static/js/main.680621ab.chunk.js.map",
+    "runtime-main.js": "/speedy-react/static/js/runtime-main.40dc9a7e.js",
+    "runtime-main.js.map": "/speedy-react/static/js/runtime-main.40dc9a7e.js.map",
+    "static/js/2.d36afd02.chunk.js": "/speedy-react/static/js/2.d36afd02.chunk.js",
+    "static/js/2.d36afd02.chunk.js.map": "/speedy-react/static/js/2.d36afd02.chunk.js.map",
+    "static/js/3.f8112e20.chunk.js": "/speedy-react/static/js/3.f8112e20.chunk.js",
+    "static/js/3.f8112e20.chunk.js.map": "/speedy-react/static/js/3.f8112e20.chunk.js.map",
     "index.html": "/speedy-react/index.html",
-    "static/css/main.9839d2a2.chunk.css.map": "/speedy-react/static/css/main.9839d2a2.chunk.css.map",
-    "static/js/2.3ae82675.chunk.js.LICENSE.txt": "/speedy-react/static/js/2.3ae82675.chunk.js.LICENSE.txt",
+    "static/css/main.e17e66e7.chunk.css.map": "/speedy-react/static/css/main.e17e66e7.chunk.css.map",
+    "static/js/2.d36afd02.chunk.js.LICENSE.txt": "/speedy-react/static/js/2.d36afd02.chunk.js.LICENSE.txt",
     "static/media/arrow-left.2d52f05c.svg": "/speedy-react/static/media/arrow-left.2d52f05c.svg",
-    "static/media/arrow-right.e425b2c0.svg": "/speedy-react/static/media/arrow-right.e425b2c0.svg"
+    "static/media/arrow-right.e425b2c0.svg": "/speedy-react/static/media/arrow-right.e425b2c0.svg",
+    "static/media/component-tree-1.4e6e4967.svg": "/speedy-react/static/media/component-tree-1.4e6e4967.svg",
+    "static/media/component-tree-2.334d251a.svg": "/speedy-react/static/media/component-tree-2.334d251a.svg",
+    "static/media/component-tree-3.9e5ea962.svg": "/speedy-react/static/media/component-tree-3.9e5ea962.svg",
+    "static/media/context-component-tree-1.82768c38.svg": "/speedy-react/static/media/context-component-tree-1.82768c38.svg",
+    "static/media/context-component-tree-2.d8485e21.svg": "/speedy-react/static/media/context-component-tree-2.d8485e21.svg",
+    "static/media/context-component-tree-3.45874df7.svg": "/speedy-react/static/media/context-component-tree-3.45874df7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.bdc3d3f4.js",
-    "static/js/2.3ae82675.chunk.js",
-    "static/css/main.9839d2a2.chunk.css",
-    "static/js/main.2d71872f.chunk.js"
+    "static/js/runtime-main.40dc9a7e.js",
+    "static/js/2.d36afd02.chunk.js",
+    "static/css/main.e17e66e7.chunk.css",
+    "static/js/main.680621ab.chunk.js"
   ]
 }
