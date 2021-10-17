@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/speedy-react/static/css/main.e17e66e7.chunk.css",
-    "main.js": "/speedy-react/static/js/main.680621ab.chunk.js",
-    "main.js.map": "/speedy-react/static/js/main.680621ab.chunk.js.map",
+    "main.js": "/speedy-react/static/js/main.f68c71f9.chunk.js",
+    "main.js.map": "/speedy-react/static/js/main.f68c71f9.chunk.js.map",
     "runtime-main.js": "/speedy-react/static/js/runtime-main.40dc9a7e.js",
     "runtime-main.js.map": "/speedy-react/static/js/runtime-main.40dc9a7e.js.map",
     "static/js/2.d36afd02.chunk.js": "/speedy-react/static/js/2.d36afd02.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.40dc9a7e.js",
     "static/js/2.d36afd02.chunk.js",
     "static/css/main.e17e66e7.chunk.css",
-    "static/js/main.680621ab.chunk.js"
+    "static/js/main.f68c71f9.chunk.js"
   ]
 }
