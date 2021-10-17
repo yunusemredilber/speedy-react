@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/speedy-react/static/css/main.f2603123.chunk.css",
+    "main.css": "/speedy-react/static/css/main.b649ec56.chunk.css",
     "main.js": "/speedy-react/static/js/main.ecb1aa04.chunk.js",
     "main.js.map": "/speedy-react/static/js/main.ecb1aa04.chunk.js.map",
     "runtime-main.js": "/speedy-react/static/js/runtime-main.40dc9a7e.js",
@@ -10,7 +10,7 @@
     "static/js/3.f8112e20.chunk.js": "/speedy-react/static/js/3.f8112e20.chunk.js",
     "static/js/3.f8112e20.chunk.js.map": "/speedy-react/static/js/3.f8112e20.chunk.js.map",
     "index.html": "/speedy-react/index.html",
-    "static/css/main.f2603123.chunk.css.map": "/speedy-react/static/css/main.f2603123.chunk.css.map",
+    "static/css/main.b649ec56.chunk.css.map": "/speedy-react/static/css/main.b649ec56.chunk.css.map",
     "static/js/2.d36afd02.chunk.js.LICENSE.txt": "/speedy-react/static/js/2.d36afd02.chunk.js.LICENSE.txt",
     "static/media/arrow-left.2d52f05c.svg": "/speedy-react/static/media/arrow-left.2d52f05c.svg",
     "static/media/arrow-right.e425b2c0.svg": "/speedy-react/static/media/arrow-right.e425b2c0.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.40dc9a7e.js",
     "static/js/2.d36afd02.chunk.js",
-    "static/css/main.f2603123.chunk.css",
+    "static/css/main.b649ec56.chunk.css",
     "static/js/main.ecb1aa04.chunk.js"
   ]
 }
