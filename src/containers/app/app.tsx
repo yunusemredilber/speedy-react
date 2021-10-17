@@ -24,6 +24,18 @@ const App: FunctionComponent = () => {
         slides={[
           <TextSection
             key={-1}
+            header="React Optimization Tips"
+          >
+            <img
+              src="https://www.webperf.ist/images/logo/logo.svg"
+              alt="Webperf.ist logo"
+              className="circle white-logo"
+              width={300}
+              height={300}
+            />
+          </TextSection>,
+          <TextSection
+            key={-1}
             header="Who am I?"
             secondHeader="Yunus Emre Dilber"
           >
