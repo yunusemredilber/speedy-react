@@ -1,10 +1,8 @@
 import { FunctionComponent, useState } from "react"
 import { Button } from "../../components/button"
-import { Circle, CircleText } from "../common/circle"
+import { Circle } from "../common/circle"
 
 export const CounterAndCircleText = `
-${CircleText}
-
 const Counter = () => {
   const [counter, setCounter] = useState(0)
 
